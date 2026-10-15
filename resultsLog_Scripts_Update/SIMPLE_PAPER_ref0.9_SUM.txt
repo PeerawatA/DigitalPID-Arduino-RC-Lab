@@ -1,0 +1,67 @@
+====== PID Architecture Test v3.4 (TIMING) =====
+PID mode          = SIMPLE
+Architecture      = PAPER_ADC_ISR
+Control mode      = CLOSED_LOOP
+Log mode          = SUMMARY_ONLY
+Setpoint x        = 0.9003
+Run time (s)      = 100.0
+SERIAL_DECIMATION = 10
+Discharge (ms)    = 1000
+# running (no streaming) ...
+# ===== SUMMARY (all ISR cycles) =====
+# cycles_J,97655
+# cycles_Texec,97656
+# J_mean_us,-0.000
+# J_std_us,0.045
+# J_rms_us,0.045
+# J_min_us,-14.0
+# J_max_us,0.0
+# J_nonzero_frac,0.00001
+# L_mean_us,19.500
+# L_min_us,19.5
+# L_max_us,19.5
+# Texec_mean_us,102.386
+# Texec_std_us,16.230
+# Texec_min_us,60.5
+# Texec_max_us,117.0
+# y_ss_samples,78126
+# y_ss_mean_lsb,920.795
+# y_ss_std_lsb,3.535
+# y_ss_min_lsb,907
+# y_ss_max_lsb,938
+# y_ss_mean,0.90009
+# y_ss_std,0.00346
+# J_hist,0.0,97654
+# J_hist,0.5,0
+# J_hist,1.0,0
+# J_hist,1.5,0
+# J_hist,2.0,0
+# J_hist,2.5,0
+# J_hist,3.0,0
+# J_hist,3.5,0
+# J_hist,4.0,0
+# J_hist,4.5,0
+# J_hist,5.0,0
+# J_hist,5.5,0
+# J_hist,6.0,0
+# J_hist,6.5,0
+# J_hist,7.0,0
+# J_hist,7.5,0
+# J_hist,8.0,1
+# Texec_hist,0.0,0
+# Texec_hist,50.0,0
+# Texec_hist,55.0,0
+# Texec_hist,60.0,3308
+# Texec_hist,65.0,2
+# Texec_hist,70.0,1090
+# Texec_hist,75.0,11942
+# Texec_hist,80.0,7153
+# Texec_hist,85.0,0
+# Texec_hist,90.0,7015
+# Texec_hist,95.0,1302
+# Texec_hist,100.0,0
+# Texec_hist,105.0,2600
+# Texec_hist,110.0,53492
+# Texec_hist,115.0,9752
+# Texec_hist,120.0,0
+# END
